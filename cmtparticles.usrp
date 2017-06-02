@@ -26,6 +26,11 @@ c----------------------------------------------------------------------
       include 'CTIMER'
       include 'CMTDATA'
       include 'CMTPART'
+c     added by keke
+      common /elementload/ gfirst, inoassignd, resetFindpts, pload(lelg)
+      integer gfirst, inoassignd, resetFindpts, pload
+c     end added by keke
+
 
 c     zero before anything happens
       call rzero(ptdum,iptlen)

@@ -78,10 +78,10 @@
    3.0              df/dx                 p74
    0.               pre-spl iterations    p75
    0.05            alpha                  p76
-   0               adaptive load-balance  p77
+   2               adaptive load-balance  p77
   500        number of steps rebalance     p78
   0.000000E+00                            p79
-  0.000000E+00                            p80
+  1     centralized or distributed(1)     p80
   0.000000E+00                            p81
   0.000000E+00                            p82
   0.000000E+00                            p83
